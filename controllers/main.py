@@ -17,8 +17,8 @@ _logger = logging.getLogger(__name__)
 
 class MercadoPagoController(http.Controller):
     _notify_url = '/payment/mercadopago/ipn/'
-    _return_url = '/payment/mercadopago/dpn/'
-    _cancel_url = '/payment/mercadopago/cancel/'
+    _return_url = '/shop/confirmation/'
+    _cancel_url = '/shop/payment/'
 
     def _get_return_url(self, **post):
         """ Extract the return URL from the data coming from MercadoPago. """

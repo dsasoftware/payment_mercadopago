@@ -221,7 +221,7 @@ class AcquirerMercadopago(osv.Model):
 	            "external_reference": tx_values["reference"],
 	            "expires": True,
 	            "expiration_date_from": "2015-01-29T11:51:49.570-04:00",
-	            "expiration_date_to": "2015-02-28T11:51:49.570-04:00"
+	            "expiration_date_to": "2017-02-28T11:51:49.570-04:00"
                 }
 
             print "preference:", preference
